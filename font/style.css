@@ -1,0 +1,28 @@
+body {
+    margin: 0px;
+    padding: 0px;
+}
+nav {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+nav h1{
+    font-size: 40px;
+    background-color: blue;
+    color: antiquewhite
+}
+nav .menu{
+    display: flex;
+    flex-wrap: wrap;
+
+}
+nav .menu .link {
+    margin-right: 30px;
+    font-size: 30px;
+    cursor: pointer;
+}
+nav .menu .link:hover{
+    color: aqua;
+    font-size:40px;
+}
