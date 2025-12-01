@@ -1,0 +1,178 @@
+@media (max-width:) {
+
+}
+  /* <nav class="uk-navbar"  uk-navbar>
+            <div class="uk-navbar-left " style="margin-left: 20px;">
+               <a class="uk-navbar-item uk-logo" href=""><img src="image/1.png" alt="" width="200" uk-responsive></a>
+            </div>
+            <div class="uk-navbar-left" style="padding-left: 50px;">
+                <ul class="uk-navbar-nav">
+                    <li><a href="#">Shop</a></li>
+                    <li><a href="#">Woman <span uk-icon="icon: triangle-down"></span></a></li>
+                    <li><a href="#">Man <span uk-icon="icon: triangle-down"></span></a></li>
+                    <li><a href="#">Sale <span uk-icon="icon: triangle-down"></span></a></li>
+                    <li><a href="#">Pages <span uk-icon="icon: triangle-down"></span></a></li>
+                </ul>
+             </div>      
+                    <div class="uk-navbar-right">
+                        <ul class="uk-navbar-nav">
+                            <li><a href="#"uk-icon="icon: search" style="color: black;padding-right: 50px;" ></a></li>
+                            <li><a href="#" uk-icon="icon: copy" style="color: black;"></a></li>
+                            <li><a href="#" uk-icon="icon: heart" style="color: black;"></a></li>
+                            <li><a href="#" uk-icon="icon: cart" style="color: black;"></a></li>
+                        </ul>
+                    </div>
+        </nav>
+
+       
+                 */
+                
+<div class="uk-grid-small uk-child-width-1-2@s uk-child-width-1-1" uk-grid>
+ <div class="uk-width-1-2@m"> 
+   <div class="uk-inline uk-child-width-1-1"> 
+     <img src="image/1 (2).png" alt="" style="height: 995px;">
+    <div class="uk-position-bottom-left uk-padding-small" uk-img> 
+    <a class="uk-button uk-button-default" style="border: none;">Shop Now <span uk-icon="arrow-right" ></span></a>
+     </div>
+    </div> 
+  </div>
+ <div class="uk-width-1-2@m">
+ <div class="uk-inline ">
+  <img src="image/2 5.png" alt="" style="height: 550px;" width="1000px" uk-img>
+   <div class="uk-position-bottom-left uk-padding-small">
+    <a class="uk-button uk-button-default" style="border: none;">Shop Now <span uk-icon="arrow-right"></span></a> 
+   </div> 
+  </div> 
+ <div class="uk-inline"> 
+  <img src="image/3 6.png" alt="" style="height: 445px;;" width="1000px" uk-img> 
+ <div class="uk-position-bottom-left uk-padding-small">
+    <a class="uk-button uk-button-default" style="border: none;">Shop Now <span uk-icon="arrow-right"></span></a>
+ </div> 
+ </div> 
+</div>
+
+<nav class="uk-navbar" uk-nav>
+ <div class="uk-navbar-center" style="margin-top: 40px; ">
+  <ul class="uk-navbar-nav"> 
+  <li><a href="#" style="color: rgb(83, 81, 81);">New Arivals </a></li>
+  <li><a href="#" style="color: rgb(83, 81, 81);">Best Sellers</a></li>
+  <li> <a href="#" style="color: rgb(83, 81, 81);">Final Stock Sale</a></li> 
+  <li><a href="#" style="color: rgb(83, 81, 81);">Womens</a></li> 
+  <li><a href="#" style="color: rgb(83, 81, 81);">Mens</a></li> 
+  </ul> 
+ </div> 
+</nav>
+
+<div class="uk-grid-small" style="margin: 20px;" uk-grid>
+ <div class="uk-width-1-4@m ">
+   <img src="image/4.jpg" alt="" style="height:540px;width: 400px;" uk-img> 
+   <p>Muscle Fit T-shirt</p>
+   <p> <a href="" style="color: black;">$60.00</a></p>
+ </div>
+  <div class="uk-width-1-4@m">
+   <img src="image/5 (2).jpg" alt="" style="height: 540px;width: 400px;" uk-img>
+   <p>Sweatear with voluminous sleeves</p> 
+   <p><a href="" style="color: black;">$60.00</a> </p>
+ </div> 
+  <div class="uk-width-1-4@m">
+   <img src="image/6.jpg" alt="" style="height: 540px;width: 400px;" uk-img>
+   <p>Tote bag with chain</p>
+   <p><a href="" style="color: black;">$80.00</a></p> </div> <div class="uk-width-1-4@m">
+   <img src="image/7.jpg" alt="" style="height: 540px;width: 400px;"> <p>Sweater with volumious sleeves</p>
+   <p><a href="" style="color: black;">$90.00</a></p>
+  </div> 
+</div>
+
+<div class="uk-grid-small" style="margin: 20px;" uk-grid>
+ <div class="uk-width-1-4@m"> <img src="image/8.jpg" alt="" style="width: 400px;">
+  <p>Reflective jacket</p> <p><a href="" style="color: black;">$110.00</a></p>
+ </div> <div class="uk-width-1-4@m"> <img src="image/9.jpg" alt="" style="height: 535px;width: 400px;"> <p>Poplin shirt with belt</p> <p><a href="" style="color: black;">$60.00</a></p> </div> <div class="uk-width-1-4@m"> <img src="image/10.jpg" alt="" style="height: 535px;width: 400px;"> <p>Super hight waist jeans</p> <p> <a href="" style="color: black;">$60.00</a></p> </div> <div class="uk-width-1-4@m"> <img src="image/11.png" alt="" style="height: 535px;width: 400px;"> <p>Hight waist denim shorts </p> <div class="price" style="display: flex;max-width: 50%;gap: 10px;"> <div class="old-price" style="text-decoration: line-through; color: black;" >40,00$</div> <div class="new-price" style="color: black;">30,00$</div> </div> </div> </div>
+      
+
+     
+ 
+
+
+
+ <div class="uk-position-relative"> 
+   <img src="image/16 2.png" alt="T-shirts" class="uk-width-1-1" style="padding: 70px;">
+    <a class="uk-button uk-button-primary shop-now uk-position-absolute" style="left: 10%; top: 70%; border: none; background-color: white; color: black;"> Shop Now <span uk-icon="arrow-right"></span> </a>
+ </div>
+
+
+
+ <div class="uk-grid-small" style="padding: 30px;" uk-grid>
+    <div class="uk-width-1-4@m">
+      <img src="image/17.png" style="height:140px">
+      <p>A question? Write to us at koloinarandriamialy@gmail.com</p>
+    </div>
+     <div class="uk-width-1-4@m">
+      <img src="image/18.png" alt="" style="height:142px">
+       <p>Secure credit card payment</p>
+     </div>
+      <div class="uk-width-1-4@m">
+        <img src="image/19.png" alt="" style="height:142px">
+         <p>Free delivery for orders over $250</p>
+      </div>
+       <div class="uk-width-1-4@m">
+       <img src="image/20.png" alt="" style="height:140px">
+       <p>Return of goods from anywhere in the world</p>
+      </div>
+</div>
+ <hr class="uk-margin-large-top uk-margin-large-bottom mon-trait">
+  <div class="uk-grid-small" style="margin: 60px;" uk-grid> 
+    <div class="uk-width-1-4@m" >
+     <h3>>Customer service </h3> 
+     <p>Nedd help?</p> <p>FAQ</p> 
+     <p>secure payment</p> 
+     <p>Delivery</p> 
+     <p>Return & refunds</p> 
+     <p>Contact us</p> 
+    </div> 
+  <div class="uk-width-1-4@m"> 
+    <h3>Special services</h3> 
+    <p>Free delivery for order over $250</p> 
+    <p>Chronapost Exprress delivery 24h</p> 
+    <p>E-reservation</p> 
+    <p>Expended return</p> 
+    </div> 
+  <div class="uk-width-1-4@m">
+   <h3>Follow us</h3> 
+   <p>Instagram</p> 
+   <p>Facebook</p> 
+   <p>Twitter</p> 
+   <p>Pinterest</p>
+</div> 
+  <div class="uk-width-1-4@m"> 
+  <h3>Newsletter</h3> 
+  <p>Sing up for email updates on the latest collections, compaings and video</p> 
+  <form class="uk-flex uk-flex-middle uk-width-medium uk-padding-small">
+  <input class="uk-input uk-flex-1" type="email" placeholder="Email address" > 
+  <button class="uk-button uk-button-text" type="submit">OK</button> 
+  </form> 
+<nav> 
+  <div class="uk-navbar"> 
+  <ul class="uk-navbar-nav"> 
+  <li><a href="#"uk-icon="icon: youtube" ></a></li>
+  <li><a href="#" uk-icon="icon: facebook"></a></li>
+  <li><a href="#" uk-icon="icon: instagram"></a></li> 
+  </ul> 
+  </div> 
+</nav> 
+</div> 
+</div> 
+<hr class="uk-margin-extramedium-top uk-margin-extramedium-bottom mon-trait">
+ </section> 
+ <footer> 
+ <nav class="uk-navbar" uk-navbar> 
+ <div class="uk-navbar-nav" > 
+ <div class="uk-navbar-left" style="display: flex; margin: 10px;"> 
+ <p> Copyright&copy;2022 powered by crocoblock,inc.All rights reserved</p> 
+ </div> <div class="uk-navbar-right" style="display: flex; padding-left: 750px;" > 
+ <div class="footer" style="display: flex; gap: 50px; margin-bottom: 15px; " > 
+ <div class="old-footer" >Privacy policy</div> 
+ <div class="new-footer">Terms</div> 
+ </div> 
+ </div> 
+ </nav> 
+ </footer>
