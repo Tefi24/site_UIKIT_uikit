@@ -1,0 +1,346 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/uikit@3.19.0/dist/css/uikit.min.css" />
+    <script src="https://cdn.jsdelivr.net/npm/uikit@3.19.0/dist/js/uikit.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/uikit@3.19.0/dist/js/uikit-icons.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="ka.css">
+    <title>Optique Video</title>
+</head>
+<body>
+    <header>
+        <section class="top-header">
+            <div class="uk-flex uk-flex-center uk-flex-middle uk-flex-between" style="gap:30px;">
+                <div><span uk-icon="mail"></span> info@optiquevideo.ch</div>
+                <div><span uk-icon="receiver"></span> 022 73 243 21</div>
+                <div>Actualités Contact</div>
+                <div>French</div>
+                <div>
+                    <a href="#"><span uk-icon="facebook" class="uk-light"></span></a>
+                    <a href="#"><span uk-icon="instagram" class="uk-light"></span></a>
+                </div>
+            </div>
+        </section>
+        <div class="uk-navbar-container mobile-nav" uk-navbar>
+            <div class="uk-navbar-left">
+                <a class="uk-navbar-toggle" uk-toggle="target: #mobile-menu">
+                    <span uk-navbar-toggle-icon></span>
+                    <span class="uk-margin-small-left">Menu</span>
+                </a>
+            </div>
+            <div class="uk-navbar-right">
+                <a href="#"><span uk-icon="search"></span></a>
+            </div>
+        </div>
+        <nav class="uk-navbar-container desktop-nav" uk-navbar>
+            <div class="uk-navbar-left">
+                <a class="uk-navbar-item uk-logo" href="#">Optique Video</a>
+            </div>
+            <div class="uk-navbar-center">
+                <ul class="uk-navbar-nav">
+                    <li><a href="#">ACCUEIL</a></li>
+                    <li><a href="#">LUNETTES DE VUE</a></li>
+                    <li><a href="#">LENTILLES</a></li>
+                    <li><a href="#">LUNETTES DE SOLEIL</a></li>
+                    <li><a href="#">CHEZ OPTIQUE VIDEO</a></li>
+                    <li><a href="#">PRENDRE RENDEZ-VOUS</a></li>
+                </ul>
+            </div>
+            <div class="uk-navbar-right">
+                <a href="#"><span uk-icon="search"></span></a>
+            </div>
+        </nav>
+    </header>
+    <div id="mobile-menu" uk-offcanvas="overlay: true">
+        <div class="uk-offcanvas-bar">
+            <button class="uk-offcanvas-close" type="button" uk-close></button>
+            <h3>Optique Video</h3>
+            <ul class="uk-nav uk-nav-default">
+                <li><a href="#">ACCUEIL</a></li>
+                <li><a href="#">LUNETTES DE VUE</a></li>
+                <li><a href="#">LENTILLES</a></li>
+                <li><a href="#">LUNETTES DE SOLEIL</a></li>
+                <li><a href="#">CHEZ OPTIQUE VIDEO</a></li>
+                <li><a href="#">PRENDRE RENDEZ-VOUS</a></li>
+            </ul>
+            <hr>
+            <p><span uk-icon="mail"></span> info@optiquevideo.ch</p>
+            <p><span uk-icon="receiver"></span> 022 73 243 21</p>
+            <p><span uk-icon="location"></span> Rue de Lausanne 26, Genève</p>
+        </div>
+    </div>
+    <div class="uk-grid-small" style="background:#e2dfdb;" uk-grid>
+        <div class="uk-width-1-2@m">
+            <img src="Rfemmehomme.jpg" alt="" class="uk-width-1-1">
+        </div>
+        <div class="uk-width-1-2@m uk-flex uk-flex-middle uk-padding">
+            <div>
+                <h1 style="color:black;">Votre Monture</h1>
+                <p style="color:black;font-size:20px;margin-left:20px;">Pour Homme</p>
+                <p style="color:black;font-size:20px;margin-left:40px;">Pour Femme</p>
+                <p style="color:black;font-size:20px;margin-left:60px;">Pour Enfant</p>
+                <a class="uk-button uk-button-default" href="#" style="background:pink;">PRENDRE RENDEZ-VOUS <span
+                        uk-icon="calendar"></span></a>
+            </div>
+        </div>
+    </div>
+    <div class="uk-text-center">
+        <h2>Optique Video, votre opticien à Genève pour votre bien-être !</h2>
+    </div>
+    <section>
+        <div class="uk-grid-small" uk-grid>
+            <div class="uk-width-1-2@s uk-width-1-3@m uk-inline">
+                <img src="fillebeige.avif" class="uk-width-1-1" style="height:400px;">
+                <div class="uk-overlay uk-position-left">
+                    <a class="uk-button uk-button-default uk-light" style="background:black;margin:20px;">Consultation gratuite</a>
+                    <br><br>
+                    <span uk-icon="home" style="color:#4da0e8;margin-left:20px;"></span> Chez Vous<br><br>
+                    <span uk-icon="desktop" style="color:#4da0e8;margin-left:20px;"></span> À votre bureau<br><br>
+                    <span uk-icon="cart" style="color:#4da0e8;margin-left:20px;"></span> En boutique<br><br>
+                </div>
+            </div>
+            <div class="uk-width-1-2@s uk-width-1-3@m uk-inline">
+                <img src="homme fond.jpg" class="uk-width-1-1" style="height:400px;">
+                <div class="uk-overlay uk-position-left">
+                    <a class="uk-button uk-button-default uk-light" style="background:black;margin:20px;">Notre Magasin</a>
+                    <ul class="uk-list uk-list-large" style="margin-left:20px;">
+                        <li><i class="fas fa-glasses" style="color:blue;margin-right:8px;"></i>Lunettes de soleil</li>
+                        <li><span uk-icon="eye" style="color:blue;margin-right:8px;"></span>Lentilles</li>
+                        <li><i class="fas fa-glasses" style="color:blue;margin-right:8px;"></i>Lunettes de vue</li>
+                        <li><span uk-icon="check" style="color:blue;margin-right:8px;"></span>Lunettes de ski</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="uk-width-1-2@s uk-width-1-3@m uk-inline">
+                <img src="femmefond.avif" class="uk-width-1-1" style="height:400px;">
+                <div class="uk-overlay uk-position-left">
+                    <a class="uk-button uk-button-default uk-light" style="background:black;margin:20px;">Achat en Magasin</a>
+                    <ul class="uk-list uk-list-large" style="margin-left:20px;">
+                        <li><span uk-icon="plus" style="color:#3d8ef8;margin-right:10px;"></span>Les avantages Optique Video</li>
+                        <li><span uk-icon="history" style="color:#3d8ef8;margin-right:10px;"></span>Notre histoire</li>
+                        <li><span uk-icon="comment" style="color:#3d8ef8;margin-right:10px;"></span>Nos conseils</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+    <div class="uk-text-center">
+        <h2>NOS NOUVELLES TENDANCES</h2>
+    </div>
+    <section class="uk-container">
+        <div class="uk-grid-small uk-child-width-1-2@s uk-child-width-1-4@m" uk-grid>
+            <div class="uk-inline">
+                <img src="OIPlunette de soleil1.webp" style="width:100%;height:200px;">
+                <div class="uk-position-bottom uk-padding-small">
+                    <strong>DIOR DDiorF F_807_5619</strong><br>CHF350.00
+                </div>
+            </div>
+            <div class="uk-inline">
+                <img src="3lunette.webp" style="width:100%;height:150px;">
+                <div class="uk-position-bottom uk-padding-small">
+                    <strong>Cazal</strong><br>CHF415.00
+                </div>
+            </div>
+            <div class="uk-inline">
+                <img src="lunette5.jpg" style="width:100%;height:200px;">
+                <div class="uk-position-bottom uk-padding-small">
+                    <strong>Versace</strong><br>CHF243.00
+                </div>
+            </div>
+            <div class="uk-inline">
+                <img src="OIPlunette.webp" style="width:100%;height:300px;">
+                <div class="uk-position-bottom uk-padding-small">
+                    <strong>Versace</strong><br>CHF243.00
+                </div>
+            </div>
+        </div>
+    </section>
+    <br><br>
+    <section>
+        <div class="uk-grid-small uk-child-width-1-2@m uk-child-width-1-1@s" uk-grid >
+            <div class="uk-inline">
+                <img src="OIPgarconlunette.webp" style="width:100%;height:400px;">
+                <div class="uk-overlay uk-position-left">
+                    <h4 style="font-size:40px;margin-left:40px;margin-top:30px;color:white;">EXAMEN DE LA VUE EN MAGASIN</h4>
+                    <h2 style="margin-left:40px;color:aqua;">JUSQU'A 65%</h2>
+                    <a href="#" class="uk-button uk-button-default" style="background:black;margin-left:40px;color: aliceblue;">PRENDRE RENDEZ-VOUS</a>
+                </div>
+            </div>
+            <div class="uk-inline">
+                <img src="OIPlunettefemme.webp" style="width:100%;height:400px;">
+                <div class="uk-overlay uk-position-left">
+                    <h4 style="font-size:30px;margin-left:40px;margin-top:30px;color:white;">EXAMEN POUR LE PERMIS DE CONDUIRE</h4>
+                    <h2 style="margin-left:40px;color:aqua;">RENDEZ-VOUS EN 45MIN</h2>
+                    <a href="#" class="uk-button uk-button-default" style="background:black;margin-left:40px;color: aliceblue;">PRENDRE RENDEZ-VOUS</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <br>
+    <div class="uk-text-center">
+        <h2>NOS PROMOTIONS</h2>
+    </div>
+    <section>
+        <div class="uk-grid-small uk-child-width-1-2@s uk-child-width-1-4@m" uk-grid>
+            <div class="uk-inline">
+                <div class="uk-position-right"><a class="uk-button uk-button-default promo-btn">PROMO!</a></div>
+                <img src="OIPlunette7.webp" style="width:100%;height:300px;">
+                <div class="uk-position-bottom uk-padding-small">
+                    <strong>DIOR CD3F PJP</strong>
+                    <div><span class="uk-text-line-through">CHF420.00</span> <span style="color:aqua;">CHF350.00</span></div>
+                </div>
+            </div>
+            <div class="uk-inline">
+                <div class="uk-position-right"><a class="uk-button uk-button-default promo-btn">PROMO!</a></div>
+                <img src="Rlunettesoleil.jpg" style="width:100%;margin-top:20px;"><br>
+                <div class="uk-position-bottom uk-padding-small">
+                    <strong>DIOR BLACKTIE223</strong>
+                    <div><span class="uk-text-line-through">CHF485.00</span> <span style="color:aqua;">CHF350.00</span></div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <br>
+    <div class="uk-text-center">
+        <h2>SUIVEZ-NOUS SUR INSTAGRAM</h2></div>
+        <div class="uk-text-left"><a href="#" style="font-size:30px;"><span uk-icon="instagram"></span> Optique.video</a>
+    </div>
+    <br>
+    <section>
+        <div class="uk-grid uk-child-width-1-4@s uk-child-width-1-8@m uk-text-center" uk-grid>
+            <img src="OIPhomme1.webp">
+            <img src="OIPhomme10.webp">
+            <img src="OIPhomme11.webp">
+            <img src="OIPhomme5.webp">
+            <img src="OIPhomme6.webp">
+            <img src="Rhomme3.jpg">
+            <img src="Vanity-Glasseshomme7.webp">
+            <img src="Rhomme9.jpg">
+        </div>
+    </section>
+    <br>
+    <div class="uk-text-center">
+        <a href="#" class="uk-button uk-button-primary">Suivre sur Instagram</a>
+    </div>
+    <br><br>
+    <div class="uk-text-center">
+        <h2>LES SUPERS OFFRES</h2>
+    </div>
+    <section>
+        <div class="uk-grid-small uk-flex-center uk-child-width-1-2@s uk-child-width-1-4@m" uk-grid>
+            <div class="uk-inline">
+                <div class="uk-position-right"><a class="uk-button uk-button-default promo-btn">PROMO!</a></div>
+                <img src="OIPlunette.webp" style="width:100%;height:300px;">
+                <div class="uk-position-bottom uk-padding-small">
+                    <strong>DIOR BLACKTIE223</strong>
+                    <div><span class="uk-text-line-through">CHF405.00</span> <span style="color:aqua;">CHF350.00</span></div>
+                </div>
+            </div>
+            <div class="uk-inline">
+                <img src="OIPlunette7.webp" style="width:100%;height:200px;">
+                <div class="uk-position-bottom uk-padding-small">
+                    <strong>DIOR DDiorF F_807_5619</strong><br>CHF350.00
+                </div>
+            </div>
+            <div class="uk-inline">
+                <img src="OIPlunette de soleil1.webp" style="width:100%;height:350px;">
+                <div class="uk-position-bottom uk-padding-small">
+                    <strong>DiorSoRealPop</strong><br>CHF425.00
+                </div>
+            </div>
+            <div class="uk-inline">
+                <img src="lunette5.jpg" style="width:100%;height:200px;">
+                <div class="uk-position-bottom uk-padding-small">
+                    <strong>DIOR CD3284</strong><br>CHF370.00
+                </div>
+            </div>
+        </div>
+    </section>
+    <br><br>
+    <section>
+        <div class="uk-grid-small uk-child-width-1-2@m uk-child-width-1-1@s" uk-grid>
+            <div class="uk-inline">
+                <img src="kkk1fillelunette.webp" style="width:100%;height:400px;">
+                <div class="uk-overlay uk-position-left">
+                    <h4 style="font-size:30px;margin:30px 0 0 50px;">MESURE POUR VOS MONTURES</h4>
+                    <h2 style="color:aqua;margin-left:50px;">JUSQU'A 65% OFF</h2>
+                    <a href="#" class="uk-button uk-button-default" style="background:black;margin-left:50px;color: aliceblue;">PRENDRE RENDEZ-VOUS</a>
+                </div>
+            </div>
+            <div class="uk-inline">
+                <img src="9348910-le-pere-noel-a-lunettes-regarde-la-camera-et-sourit-sur-fond-blanc-photo.jpg" style="width:100%;height:400px;">
+                <div class="uk-overlay uk-position-right kah" >
+                    <h4 style="font-size:40px;color:black;margin:30px 0 0 50px;">DÉPLACEMENT AUPRES DES PERSONNES A MOBILITÉ RÉDUITE</h4>
+                    <h2 style="color:aqua;margin-left: 50px;">30% OFF SALE</h2>
+                    <a href="#" class="uk-button uk-button-default" style="background:black;margin-left: 50px;color: aliceblue;">PRENDRE RENDEZ-VOUS</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <br><br>
+    <section>
+        <div class="uk-grid-small uk-child-width-1-2@s uk-child-width-1-6@m karinah" uk-grid>
+            <img src="OIPlogorayban.webp" style="height:200px;">
+            <img src="OIPlogoversace.webp" style="height:200px;">
+            <img src="OIPcazal.webp" style="height:200px;">
+            <img src="DAVID-BECKHAM.webp" style="height:200px;">
+            <img src="OIPgucci.webp" style="height:200px;">
+            <img src="logochloe.jpg" style="height:200px;">
+        </div>
+    </section>
+    <br>
+    <div class="uk-text-center">
+        <h2>NOS DERNIÈRES ACTUALITÉS</h2>
+    </div>
+    <section>
+        <div class="uk-grid-small uk-child-width-1-2@s" uk-grid>
+            <div>
+                <img src="Rcadeau.jpg" style="width:100%;">
+                <h3>Concours exemple à dupliquer</h3>
+                <p>Took sold add play may none him few. An stairs as be lovers uneasy. Made neat an on be gave show snug tore.</p>
+            </div>
+            <div>
+                <img src="linettefemme.webp" style="width:100%;">
+                <h3>Give Yourself More Mental Clarity</h3>
+                <p>Took sold add play may none him few. An stairs as be lovers uneasy. Made neat an on be gave show snug tore.</p>
+            </div>
+        </div>
+    </section>
+    <br>
+    <section style="background:#0c0c0c;color:white;padding:20px;">
+        <div class="uk-grid-small uk-child-width-1-4@m uk-child-width-1-1@s" uk-grid>
+            <div>
+                <h3 style="color: rgb(131, 129, 128);">ADRESSE</h3>
+                <p><span uk-icon="location"></span> RUE DE LAUSANNE 26, 1201 GENÈVE</p>
+                <p><span uk-icon="receiver"></span> 022 73 243 21</p>
+                <p><span uk-icon="mail"></span> info@optiquevideo.ch</p>
+            </div>
+            <div>
+                <h3 style="color: rgb(131, 129, 128);">HEURES D'OUVERTURE</h3>
+                <p>Lundi à Vendredi : 9h00 - 19h00</p>
+                <p>Samedi</p>
+                <p>Mon compte</p>
+            </div>
+            <div>
+                <h3 style="color: rgb(131, 129, 128);">NEWSLETTER</h3>
+                <p>Email Address*</p>
+                <input type="email" class="uk-input" placeholder="Email">
+                <br><br>
+                <button class="uk-button uk-button-primary uk-width-1-1">ABONNEZ-VOUS</button>
+            </div>
+            <div class="uk-text-center">
+                <p>Politique de confidentialité</p>
+                <a href="#"><span uk-icon="facebook"></span></a>
+                <a href="#"><span uk-icon="instagram"></span></a>
+            </div>
+        </div>
+    </section>
+    <div class="uk-text-center" style="background:#a99a9a;color:rgb(250, 244, 244);padding:10px;">
+        <h4>Copyright&copy;Optique Video</h4>
+    </div>
+</body>
+</html>

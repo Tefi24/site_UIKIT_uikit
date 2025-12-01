@@ -1,0 +1,72 @@
+html, body {
+    overflow-x: hidden !important; 
+}
+img {
+    object-fit: cover;
+}
+.top-header {
+    background: black;
+    color: white;
+    padding: 8px 0;
+}
+.promo-btn {
+    background-color: aqua !important;
+}
+@media (max-width: 959px) {
+    .desktop-nav {
+        display: none !important;
+    }
+}
+@media (min-width: 960px) {
+    .mobile-nav {
+        display: none !important;
+    }
+}
+.highlight{
+    color: aquamarine;
+    font-weight: 700;
+    margin-top: 5px;
+    margin-left: 50px;}
+.highlight1{
+    color: aquamarine;
+    font-weight: 700;
+    margin-top: 5px;
+    margin-left: 50px;}
+.uk-text-line-through{
+    text-decoration:line-through ;}
+.my-push{
+    color: rgb(8, 8, 8);
+    font-size: 50px;
+    margin-left: 50px;
+    margin-top: 50px;} 
+ .my-case{
+    color: rgb(8, 8, 8);
+    font-size: 50px;
+    margin-left: 50px;
+    margin-top: 50px;}
+.highlight2{
+    color: aquamarine;
+    font-weight: 700;
+    margin-top: 5px;
+    margin-left: 50px;
+    font-size: 30px;}
+.highlight3 {
+    color: aquamarine;
+    font-weight: 700;
+    margin-top: 5px;
+    margin-left: 50px;
+    font-size: 30px;}   
+@media screen and (max-width:530px) {
+    .kah h4{
+        font-size: 30px !important;
+    }
+} 
+@media screen and (max-width:1128px) {
+    .karinah img{
+        height: auto !important;
+    } 
+}
+
+
+    
+
